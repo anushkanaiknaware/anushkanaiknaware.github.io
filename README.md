@@ -1,4 +1,4 @@
-Original Source Code from Mark Ono, Lanyon Design (c) 2014
+Original Source Code from Mark Otto, Lanyon Design (c) 2014
 
 Modified by Anushka Naiknaware
 
