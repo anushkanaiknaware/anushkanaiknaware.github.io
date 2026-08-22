@@ -358,6 +358,16 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+.site-footer {
+  max-width: 32rem;
+  margin: 3rem auto 1.5rem;
+  padding: 0 1rem;
+  color: #9a9a9a;
+  font-size: .75rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
 /*
  * Pagination
  *
