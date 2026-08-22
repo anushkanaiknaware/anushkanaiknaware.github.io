@@ -347,7 +347,7 @@ tbody tr:nth-child(odd) th {
   margin-top: 0;
 }
 .non-home-post-title {
-  font-size: .8rem;
+  font-size: 1rem;
 }
 
 /* Meta data line below post title */
