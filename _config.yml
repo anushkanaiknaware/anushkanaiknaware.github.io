@@ -1,0 +1,22 @@
+# Setup
+title:               Anushka Naiknaware
+tagline:             ''
+description:         ''
+url:                 https://anushkanaiknaware.github.io
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Anushka Naiknaware
+  url:               ""
+  email:             anushka@alum.mit.edu
+
+# Gems
+plugins:
+  - jekyll-paginate
+
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y
