@@ -249,6 +249,8 @@ img {
 
 .home-text {
   min-width: 0;
+  font-size: .8rem;
+  line-height: 1.35;
 }
 
 @media (max-width: 39.99em) {
@@ -260,6 +262,11 @@ img {
     width: 120px;
     height: auto;
     margin: 0 auto 1rem;
+  }
+
+  .home-text {
+    font-size: 1rem;
+    line-height: 1.5;
   }
 }
 
