@@ -234,6 +234,12 @@ img {
   border-radius: 5px;
 }
 
+.home-image {
+  float: left;
+  width: 180px;
+  margin: 0 1.5rem 1rem 0;
+}
+
 /* Tables */
 table {
   margin-bottom: 1rem;
