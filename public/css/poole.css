@@ -234,10 +234,34 @@ img {
   border-radius: 5px;
 }
 
+.home-content {
+  display: grid;
+  grid-template-columns: 180px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
 .home-image {
-  float: left;
-  width: 180px;
-  margin: 0 1.5rem 1rem 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  object-fit: cover;
+}
+
+.home-text {
+  min-width: 0;
+}
+
+@media (max-width: 39.99em) {
+  .home-content {
+    display: block;
+  }
+
+  .home-image {
+    width: 120px;
+    height: auto;
+    margin: 0 auto 1rem;
+  }
 }
 
 /* Tables */
