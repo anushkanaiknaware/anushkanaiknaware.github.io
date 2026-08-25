@@ -307,6 +307,9 @@ a.sidebar-nav-item:focus {
 .post {
   margin-bottom: 4em;
 }
+.home-post {
+  margin-bottom: 1.5em;
+}
 .non-home-post {
   margin-bottom: 0.5em;
 }
