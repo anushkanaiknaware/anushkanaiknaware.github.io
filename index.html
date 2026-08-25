@@ -8,7 +8,7 @@ title: Home
   {% assign other_posts = site.posts | where_exp: "post", "post.slug != 'home'" %}
   {% assign ordered_posts = home_posts | concat: other_posts %}
   {% for post in ordered_posts %}
-  <div class="post{% if post.slug != "home" %} non-home-post{% endif %}">
+  <div class="post{% if post.slug == "home" %} home-post{% else %} non-home-post{% endif %}">
     {% if post.slug != "home" %}
       <h1 class="post-title">
         <a class="non-home-post-title" href="{{ post.url | absolute_url }}">
