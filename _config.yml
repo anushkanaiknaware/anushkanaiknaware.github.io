@@ -1,7 +1,7 @@
 # Setup
 title:               Anushka Naiknaware
 tagline:             ''
-description:         ''
+description:         'Official Website for Anushka Naiknaware'
 url:                 https://anushkanaiknaware.github.io
 baseurl:             ''
 paginate:            5
@@ -10,7 +10,7 @@ permalink:           pretty
 # About/contact
 author:
   name:              Anushka Naiknaware
-  url:               ""
+  url:               https://anushkanaiknaware.github.io
   email:             anushka@alum.mit.edu
 
 # Gems
